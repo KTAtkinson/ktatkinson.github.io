@@ -1,8 +1,13 @@
-----
-----
+---
+---
 
 @import "{{ site.theme }}";
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script');
 
 #forkme_banner {
     display: none;
+}
+
+#coming-soon {
+    font-family: 'Kaushan Script', cursive;
 }
