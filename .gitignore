@@ -1,0 +1,4 @@
+*.swp
+.jekyll-metadata
+*.lock
+_site/
