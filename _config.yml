@@ -1,5 +1,8 @@
 theme: jekyll-theme-slate
 
 # About page
-title: Katie Atkinson
-description: Hello world! 
+title: "I'm Katie" 
+description: I build things 
+
+# Resources
+header_fonts: "'Kaushan Script', cursive"

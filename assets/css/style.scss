@@ -4,10 +4,18 @@
 @import "{{ site.theme }}";
 @import url('https://fonts.googleapis.com/css?family=Kaushan+Script');
 
-#forkme_banner {
-    display: none;
+.header-image {
+    vertical-align: middle;
+    width: 20%;
 }
 
-#coming-soon {
-    font-family: 'Kaushan Script', cursive;
+.header-text h1, .header-text h2 {
+    font-family: {{ site.header_fonts }};
 }
+    
+.header-text {
+    width: 70%;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+ }
